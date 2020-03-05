@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+
+
+        <shape android:shape="rectangle"
+               android:thicknessRatio="135"
+        >
+
+            <corners
+                    android:radius="10dp"
+            />
+            <solid
+                android:color="@color/blanco"
+            />
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+        <rotate
+                android:fromDegrees="00"
+                android:toDegrees="00"
+                android:pivotX="50%"
+                android:pivotY="50%" >
+            <shape android:shape="rectangle" >
+                <stroke
+                        android:dashGap="50dp"
+                        android:dashWidth="50dp"
+                        android:width="10dp"
+                        android:color="@color/negro"
+
+                />
+            </shape>
+        </rotate>
+
+    </item>
+</selector>

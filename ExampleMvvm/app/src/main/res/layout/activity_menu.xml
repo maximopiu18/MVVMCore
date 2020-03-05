@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/access_token"
+        android:text="access_token: "
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/expires_in"
+        android:text="expires_in: "
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/id_token"
+        android:text="id_token: "
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/refresh_token"
+        android:text="refresh_token: "
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/token_type"
+        android:text="token_type: "
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/expires_at"
+        android:text="expires_at: "
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

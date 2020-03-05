@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_app_kt"
+    >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:alpha="0.1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_login"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="36dp"
+                    >
+                    <ImageView
+
+                        android:layout_margin="0dp"
+                        android:src="@drawable/ic_logo_keydok_login"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerInside"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="100"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+
+                        >
+                        <com.google.android.material.textfield.TextInputLayout
+
+                            android:layout_weight="90"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:hint="Usuario"
+                            app:boxStrokeColor="@color/blanco"
+                            app:boxStrokeWidth="5dp"
+                            app:errorEnabled="true"
+                            app:hintEnabled="true"
+                            style="@style/LoginTextInputLayoutStyle"
+                            android:theme="@style/EditTextHint"
+                            >
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:text="+525520868804"
+                                android:padding="12dp"
+                                android:textColorHint="@color/blanco"
+                                android:id="@+id/ed_usuario"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="numberSigned"
+                                android:maxLines="1"
+                                android:textColor="@color/blanco"
+                                />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+
+                        >
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_weight="90"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:hint="Contraseña"
+                            app:boxStrokeColor="@color/blanco"
+                            app:boxStrokeWidth="5dp"
+                            app:errorEnabled="true"
+                            app:hintEnabled="true"
+                            style="@style/LoginTextInputLayoutStyle"
+                            android:theme="@style/EditTextHint"
+                            app:passwordToggleEnabled="true"
+                            app:passwordToggleTint="@color/blanco"
+                            >
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:text="MiPass1.0"
+                                android:padding="12dp"
+                                android:textColorHint="@color/blanco"
+                                android:id="@+id/ed_contrasena"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textPassword"
+                                android:maxLines="1"
+                                android:textColor="@color/blanco"
+                                />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+
+                        >
+                        <Button
+                            android:id="@+id/activity_login_btn_iniciar"
+                            android:padding="18dp"
+                            android:textColor="@color/blanco"
+                            android:text="Iniciar sesión"
+                            android:background="@drawable/btn_generico_kt"
+                            android:layout_weight="90"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView
+                    android:layout_marginTop="36dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_fingerprint"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="O usa tu huella"
+                    android:textColor="@color/blanco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center|bottom"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_margin="12dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Aviso de privacidad"
+                        android:textColor="@color/rojo_fuerte1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Términos y condiciones de uso"
+                        android:textColor="@color/rojo_fuerte1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

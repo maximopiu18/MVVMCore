@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_fuerte">#3CA6FB</color>
+    <color name="azul_claro">#45C5E5</color>
+    <color name="azul_fuerte2">#025597</color>
+    <color name="azul_fuerte3">#013762</color>
+    <color name="negro">#000000</color>
+    <color name="gris">#363636</color>
+    <color name="gris_claro">#818181</color>
+    <color name="gris_claro2">#DDDDDD</color>
+    <color name="gris_claro3">#EDEBEB</color>
+    <color name="azul_claro2">#71E2FF</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#BDC3C7</color>
+    <color name="morado_fuerte">#5B016A</color>
+    <color name="morado_claro">#840399</color>
+    <color name="naranja_claro">#FAA62B</color>
+    <color name="naranja_fuerte">#ED8F08</color>
+    <color name="verde_claro">#4FB321</color>
+    <color name="amarillo_claro">#FFEB3B</color>
+    <color name="transparente">#00000000</color>
+    <color name="colorPrimary">#025597</color>
+    <color name="colorPrimaryDark">#02508F</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="blanco">#ffffff</color>
+    <color name="rojo_fuerte1">#FF1241</color>
+    <color name="rojo_fuerte2">#C30327</color>
+    <color name="rojo_fuerte3">#580313</color>
+
+</resources>
